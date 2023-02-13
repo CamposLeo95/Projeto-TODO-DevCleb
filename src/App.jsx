@@ -17,8 +17,7 @@ function App() {
       if(task){
         setList([...list, {id: uuid(), task, finished: false}])
         setTask(' ')
-      }
-      
+      }   
   }
 
   function handleCheck(id){
